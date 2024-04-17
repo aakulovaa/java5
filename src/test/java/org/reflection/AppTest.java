@@ -1,4 +1,4 @@
-package org.example;
+package org.reflection;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
