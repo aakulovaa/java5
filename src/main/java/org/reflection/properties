@@ -1,0 +1,4 @@
+# 
+#Wed Apr 17 21:58:20 MSK 2024
+org.reflection.interfaces.SomeInterface=org.reflection.classes.SomeImpl
+org.reflection.interfaces.SomeOtherInterface=org.reflection.classes.SODoer

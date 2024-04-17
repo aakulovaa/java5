@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="384d480f-870d-46a7-9211-294e0fee035d" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/reflection/OtherImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/reflection/SODoer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/reflection/SomeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/reflection/SomeInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/reflection/SomeOtherInterface.java" afterDir="false" />
+    <list default="true" id="384d480f-870d-46a7-9211-294e0fee035d" name="Changes" comment="добавление properties">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/reflection/classes/OtherImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/reflection/classes/SomeImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/AutoInjectable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/AutoInjectable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/reflection/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/OtherImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/SODoer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/classes/SODoer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/SomeBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/SomeBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/SomeImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/SomeInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/interfaces/SomeInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/SomeOtherInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/interfaces/SomeOtherInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,11 +55,47 @@
     &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;five&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.reflection" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.reflection" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.org.reflection.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="reflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.reflection.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.reflection.App" />
+      <module name="reflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,6 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.org.reflection.App" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -93,11 +138,20 @@
       <option name="project" value="LOCAL" />
       <updated>1713337864031</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="добавление классов">
+      <option name="closed" value="true" />
+      <created>1713374081158</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713374081158</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="добавление классов" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавление классов" />
   </component>
 </project>
