@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="384d480f-870d-46a7-9211-294e0fee035d" name="Changes" comment="добавление properties">
+    <list default="true" id="384d480f-870d-46a7-9211-294e0fee035d" name="Changes" comment="внедрение зависимостей">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/AutoInjectable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/AutoInjectable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/Injector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/Injector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/classes/SODoer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/classes/SODoer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,13 +148,22 @@
       <option name="project" value="LOCAL" />
       <updated>1713380343947</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="внедрение зависимостей">
+      <option name="closed" value="true" />
+      <created>1714911136167</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714911136167</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="добавление классов" />
     <MESSAGE value="добавление properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавление properties" />
+    <MESSAGE value="внедрение зависимостей" />
+    <option name="LAST_COMMIT_MESSAGE" value="внедрение зависимостей" />
   </component>
 </project>
