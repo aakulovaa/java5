@@ -1,0 +1,2 @@
+org.reflection.interfaces.SomeInterface=org.reflection.classes.OtherImpl
+org.reflection.interfaces.SomeOtherInterface=org.reflection.classes.SODoer
