@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="384d480f-870d-46a7-9211-294e0fee035d" name="Changes" comment="внедрение зависимостей">
+    <list default="true" id="384d480f-870d-46a7-9211-294e0fee035d" name="Changes" comment="внедрение зависимостей в любой объект , который содержит поля помеченные аннотацией">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/AutoInjectable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/AutoInjectable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/Injector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/Injector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/classes/SODoer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/classes/SODoer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714911136167</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="внедрение зависимостей в любо">
+      <option name="closed" value="true" />
+      <created>1714912725282</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714912725282</updated>
+    </task>
+    <task id="LOCAL-00006" summary="внедрение зависимостей в любой объект , который содержит поля помеченные аннотацией">
+      <option name="closed" value="true" />
+      <created>1714912859948</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714912859948</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,6 +178,8 @@
     <MESSAGE value="добавление классов" />
     <MESSAGE value="добавление properties" />
     <MESSAGE value="внедрение зависимостей" />
-    <option name="LAST_COMMIT_MESSAGE" value="внедрение зависимостей" />
+    <MESSAGE value="внедрение зависимостей в любо" />
+    <MESSAGE value="внедрение зависимостей в любой объект , который содержит поля помеченные аннотацией" />
+    <option name="LAST_COMMIT_MESSAGE" value="внедрение зависимостей в любой объект , который содержит поля помеченные аннотацией" />
   </component>
 </project>
