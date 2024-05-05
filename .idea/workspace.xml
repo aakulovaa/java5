@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="384d480f-870d-46a7-9211-294e0fee035d" name="Changes" comment="добавление properties">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/reflection/classes/OtherImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/reflection/classes/SomeImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/OtherImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/SODoer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/classes/SODoer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/SomeBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/SomeBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/SomeImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/SomeInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/interfaces/SomeInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/SomeOtherInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/interfaces/SomeOtherInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/Injector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/Injector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/reflection/properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/reflection/properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +44,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.reflection.App.executor&quot;: &quot;Run&quot;,
     &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -146,12 +139,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713374081158</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="добавление properties">
+      <option name="closed" value="true" />
+      <created>1713380343947</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713380343947</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="добавление классов" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавление классов" />
+    <MESSAGE value="добавление properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавление properties" />
   </component>
 </project>
